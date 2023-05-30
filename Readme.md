@@ -20,10 +20,10 @@
 ### Acest principiu prevede că un obiect de tipul unei clase derivate trebuie să poată fi înlocuit cu un obiect de tipul clasei de bază, fără a afecta corectitudinea programului. În codul dat, nu există o ierarhie de clase, dar principiul poate fi aplicat în contextul utilizării interfeței "Observer". Astfel, orice obiect care implementează interfața "Observer" poate fi adăugat ca observator în clasa "DepozitMasiniObserver".
 #
 ## 4. Principiul segregării interfețelor (Interface Segregation Principle - ISP):
-## Acest principiu prevede că clienții nu ar trebui să depindă de interfețe pe care nu le utilizează. În codul dat, nu există interfețe care să fie implementate, însă putem observa o separare a responsabilităților prin utilizarea claselor separate pentru diferite funcționalități (ex: "Masina", "DepozitMasini", "MasinaFactory").
+### Acest principiu prevede că clienții nu ar trebui să depindă de interfețe pe care nu le utilizează. În codul dat, nu există interfețe care să fie implementate, însă putem observa o separare a responsabilităților prin utilizarea claselor separate pentru diferite funcționalități (ex: "Masina", "DepozitMasini", "MasinaFactory").
 #
 ## 5. Principiul inversiunii dependențelor (Dependency Inversion Principle - DIP):
-## Acest principiu prevede că modulele de nivel superior nu ar trebui să depindă direct de modulele de nivel inferior, ci de abstracțiuni. În codul dat, putem observa o formă de inversiune a dependențelor prin intermediul clasei "DepozitMasiniObserver" și a interfeței "Observer". Astfel, clasa "DepozitMasiniObserver" depinde de o abstracțiune ("Observer") și poate fi notificată de orice obiect care implementează această interfață.
+### Acest principiu prevede că modulele de nivel superior nu ar trebui să depindă direct de modulele de nivel inferior, ci de abstracțiuni. În codul dat, putem observa o formă de inversiune a dependențelor prin intermediul clasei "DepozitMasiniObserver" și a interfeței "Observer". Astfel, clasa "DepozitMasiniObserver" depinde de o abstracțiune ("Observer") și poate fi notificată de orice obiect care implementează această interfață.
 #
 <h1 align = center>Creational Design Pattern:</h1>
 
