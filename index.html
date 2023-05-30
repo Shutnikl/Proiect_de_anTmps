@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Stoc Mașini</h1>
+
+  <form id="adauga-masina-form">
+    <h2>Adăugare Mașină</h2>
+    <label for="marca-input">Marca:</label>
+    <input type="text" id="marca-input" required>
+    <br>
+    <label for="model-input">Model:</label>
+    <input type="text" id="model-input" required>
+    <br>
+    <label for ="culoare-input">Culoare</label>
+    <input type="text" id="culoare-input" required>
+    <br>
+    <label for="an-input">An:</label>
+    <input type="number" id="an-input" required>
+    <br>
+    <label for="pret-input">Pret:</label>
+    <input type="number" id="pret-input" step="0.01" required>
+    <br>
+    <button onclick="adaugaMasina()">Adaugă</button>
+  </form>
+
+  <h2>Căutare Mașină</h2>
+  <label for="search-input">Cuvânt cheie:</label>
+  <input type="text" id="search-input">
+  <button onclick="cautaMasina()">Caută</button>
+
+  <h2>Stoc Mașini</h2>
+  <ul id="lista-masini"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
