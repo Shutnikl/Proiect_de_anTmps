@@ -202,4 +202,4 @@ class DepozitMasiniObserver {
 #
 # Concluzii:
 #### Utilizarea acestor design patterns în codul prezentat aduce mai multă modularitate, flexibilitate și extensibilitate. Factory Method și Builder facilitează crearea și configurarea obiectelor într-un mod controlat și modular. Adapter permite adaptarea unei clase la o altă interfață, fără a modifica codul existent. Observer permite notificarea observatorilor în cazul modificărilor, menținând astfel o separare clară între componentele sistemului.
-### Prin aplicarea acestor design patterns, codul devine mai ușor de înțeles, de întreținut și de extins. Aceste soluții reutilizabile și testate îmbunătățesc calitatea și flexibilitatea proiectării software-ului.
+#### Prin aplicarea acestor design patterns, codul devine mai ușor de înțeles, de întreținut și de extins. Aceste soluții reutilizabile și testate îmbunătățesc calitatea și flexibilitatea proiectării software-ului.
